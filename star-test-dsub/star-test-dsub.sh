@@ -3,7 +3,7 @@
 dsub \
   --project genomondevel1 \
   --zones asia-northeast1-a \
-  --logging "gs://dsub_test/get_vcf_sample_ids.sh/logging" \
+  --logging "gs://rnaseq_cellline/dsub-out/logging" \
   --disk-size 200 \
   --min-cores 6 \
   --min-ram 36 \
