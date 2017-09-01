@@ -1,0 +1,5 @@
+--env SAMPLE	--input INPUT	--input REFERENCE	--output-recursive OUTPUT_DIR
+Hela_wt_dox-	gs://rnaseq_cellline/dsub-out/small_170831/star/Hela_wt_dox-/Hela_wt_dox-.Chimeric.out.sam	gs://rnaseq_cellline/db/GRCh37/GRCh37.fa	gs://rnaseq_cellline/dsub-out/small_170831/fusion/Hela_wt_dox-
+MCF-7	gs://rnaseq_cellline/dsub-out/small_170831/star/MCF-7/MCF-7.Chimeric.out.sam	gs://rnaseq_cellline/db/GRCh37/GRCh37.fa	gs://rnaseq_cellline/dsub-out/small_170831/fusion/MCF-7
+DU145_150	gs://rnaseq_cellline/dsub-out/small_170831/star/DU145_150/DU145_150.Chimeric.out.sam	gs://rnaseq_cellline/db/GRCh37/GRCh37.fa	gs://rnaseq_cellline/dsub-out/small_170831/fusion/DU145_150
+K562_150	gs://rnaseq_cellline/dsub-out/small_170831/star/K562_150/K562_150.Chimeric.out.sam	gs://rnaseq_cellline/db/GRCh37/GRCh37.fa	gs://rnaseq_cellline/dsub-out/small_170831/fusion/K562_150

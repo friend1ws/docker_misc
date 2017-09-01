@@ -1,0 +1,5 @@
+--env SAMPLE	--input INPUT1	--input INPUT2	--input-recursive REFERENCE	--output-recursive OUTPUT_DIR
+Hela_wt_dox-	gs://rnaseq_cellline/sequence_data/small/Hela_wt_dox-/sequence1.txt	gs://rnaseq_cellline/sequence_data/small/Hela_wt_dox-/sequence2.txt	gs://rnaseq_cellline/db/GRCh37.STAR-2.5.2a	gs://rnaseq_cellline/dsub-out/small_170831/star/Hela_wt_dox-
+MCF-7	gs://rnaseq_cellline/sequence_data/small/MCF-7/sequence1.txt	gs://rnaseq_cellline/sequence_data/small/MCF-7/sequence2.txt	gs://rnaseq_cellline/db/GRCh37.STAR-2.5.2a	gs://rnaseq_cellline/dsub-out/small_170831/star/MCF-7
+DU145_150	gs://rnaseq_cellline/sequence_data/small/DU145_150/sequence1.txt	gs://rnaseq_cellline/sequence_data/small/DU145_150/sequence2.txt	gs://rnaseq_cellline/db/GRCh37.STAR-2.5.2a	gs://rnaseq_cellline/dsub-out/small_170831/star/DU145_150
+K562_150	gs://rnaseq_cellline/sequence_data/small/K562_150/sequence1.txt	gs://rnaseq_cellline/sequence_data/small/K562_150/sequence2.txt	gs://rnaseq_cellline/db/GRCh37.STAR-2.5.2a	gs://rnaseq_cellline/dsub-out/small_170831/star/K562_150

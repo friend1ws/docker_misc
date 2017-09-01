@@ -9,15 +9,6 @@ RUN apt-get update && apt-get install -y \
     gcc \
     zlib1g-dev
 
-#     git \
-#     wget \
-#     bzip2 \
-#     make \
-#     gcc \
-#     zlib1g-dev \
-#     python \
-#     python-pip
-
 ##############
 ## STAR
 
@@ -33,16 +24,5 @@ RUN wget https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1
     cd samtools-1.3.1/htslib-1.3.1 && \
     ./configure §§ make && make install && \
     cd ../ && ./configure --without-curses && make && make install
-
-# ADD alignment.sh /usr/local/bin/ 
-
-# WORKDIR /data
-
-# RUN SAMTOOLS_URL="https://github.com/samtools/samtools/releases/download/1.3.1/samtools-1.3.1.tar.bz2" && \
-#    cd $SRC && ii
-#    wget $SAMTOOLS_URL && \
-#    tar xvf samtools-1.3.1.tar.bz2 && \
-#    cd samtools-1.3.1/htslib-1.3.1 && ./configure && make && make install && \
-#    cd ../ && ./configure --without-curses && make && make install
 
 
